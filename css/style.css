@@ -1,6 +1,7 @@
 header, section, footer, aside, nav,
 article, figure, figcaption {
-    display: block;}
+    display: block;
+}
 body {
     color: #666666;
     background-color: #f9f8f6;
@@ -8,15 +9,103 @@ body {
     background-position: center;
     font-family: Georgia, Times, serif;
     line-height: 1.4em;
-    margin: 0px;}
+    margin: 0px;
+}
 
 .wrapper {
     width: 940px;
     margin: 20px auto 20px auto;
     border: 2px solid #000000;
-    background-color: #ffffff;}
+    background-color: #ffffff;
+}
 
-header {
+.header {
     height: 160px;
-    background-image: url(../images/header.jpg);
+    background-image: url("../images/header.jpg");
+}
+
+.menu {
+    margin-top: -16px;
+    color: #f9f8f6;
+    background-color: #AAAAAA;
+    line-height: 2em;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px 20px;
+}
+.home {
+    color: #000000;
+    margin-left: -30px;
+}
+
+.row1 {
+    float: left;
+}
+.row2 {
+    float: left;
+}
+.row {
+    clear: left;
+}
+/*first*/
+.image {
+    border: 1px solid #CCCCCC;
+    width: 280px;
+    margin: 20px;
+}
+.image figure
+{
+    margin: 10px;
+}
+img {
+    width: 260px;
+}
+
+/*second*/
+.second{
+    width: 330px;
+    margin: 20px 10px;
+}
+.second h2 {
+    font-weight: 500;
+}
+.second h3 {
+    font-weight: 500;
+    color: #EE0000;
+    margin-top: -10px;
+}
+
+/*third*/
+.one {
+    float: left;
+    border-right: 1px solid #CCCCCC;
+}
+.two {
+    margin: 0px 10px;
+    width: 230px;
+    float: left;
+}
+.two h2 {
+    margin-top: 40px;
+    font-weight: 500;
+    color: #EE0000;
+}
+.two h3 {
+    padding: 0px 10px 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EE0000;
+    border-bottom: 1px solid #CCCCCC;
+}
+.two p {
+    margin: 0;
+}
+
+.footer {
+    clear: left;
+    background-color: #C0C0C0;
+    color: #f9f8f6;
+    padding: 10px;
 }
